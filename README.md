@@ -23,6 +23,14 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 | AUDIO/MIC     | Realtek ALC256 (AppleALC layout ID 21)  |        
 | CAMERA        | ov9734_azurewave_camera  |        
 | SMBIOS USED   | MacBookPro16,3  |      
-| OPENCORE VERSION   | 0.9.9  |    
+| OPENCORE VERSION   | 0.9.9  |   
+
+
+**Hardware modifications**
+
+Since my Huawei Matebook D14 uses stock RTL8822CE 8822CE and this hardware was never been supported in hackintosh I replaced it with Intel® Wi-Fi 6 AX200 
+which gave me a working Wlan and BT thanks to https://github.com/OpenIntelWireless, rest of the components are untouched.
+
+
 
 
