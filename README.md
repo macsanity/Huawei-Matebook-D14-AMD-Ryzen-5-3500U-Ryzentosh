@@ -26,9 +26,9 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 | OPENCORE VERSION   | 0.9.9  |   
 
 
-## Preparing
+## Gathering Files
 
-### SSDTs
+### ACPI
 
 **In this repository we dump ssdt on our device which maybe doesn't work on your system**
 
@@ -46,11 +46,12 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 2. Copy all the files that start with SSDT and end in `*.aml` inside of Drive `/EFI/OC/ACPI`
 3. Finally, merge `patches_OC.plist` by using the PatchMerge script included with SSDTTime. Run it the same way as SSDTTime
 
-Or you can start the guide [here](https://nootinc.github.io/guide/gathering-files/acpi](https://chefkissinc.github.io/guide)
+Or you can Follow the guide [here](https://chefkissinc.github.io/guide)
+
 
 
 **PlatformInfo**
-- Please change the MLB/ROM/Serial Number/UUID by using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+- Please change the MLB/ROM/Serial Number/UUID by using [GenSMBIOS](https://chefkissinc.github.io/guide)
 
 
 ## **Note**:
@@ -91,8 +92,9 @@ For a workaround just follow either of these 2 steps
 - [Apple](https://www.apple.com) for macOS
 - [herrnst](https://github.com/herrnst/HuaweiMatebookD14AMD-OpenCore) For the guide and working EFI.
 - [ChefKissInc](https://github.com/ChefKissInc/NootedRed) for the AMD IGPU support functionality
-- [RadeonSensor](https://github.com/ChefKissInc/RadeonSensor) (GPU sensors)
+- [For the RadeonSensor](https://github.com/ChefKissInc/RadeonSensor) (GPU sensors)
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) for [AirpotItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
+- [For the OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
+- [chefkissinc for the Installation Guide](https://chefkissinc.github.io/guide)
 
 
