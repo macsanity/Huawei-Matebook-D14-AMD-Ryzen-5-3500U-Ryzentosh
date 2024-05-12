@@ -55,15 +55,15 @@ Or you can Follow the guide [here](https://chefkissinc.github.io/guide)
 
 
 ## **Note**:
-macOS Ventura (13.6) runs quite well on this machine, but Chromium - based browser causes and apps like Sublime Text cause graphical artefacts and other problems
+macOS Ventura (13.6) runs quite well on this machine, but Chromium - based browser causes graphical artefacts and other problems
 This is a known issue in [NR](https://github.com/ChefKissInc/NootedRed/issues/158) 
-For a workaround just follow either of these 2 steps
+For a workaround on Google Chrome just follow either of these 2 steps
 
 1. Open terminal and paste this: 
 
 > open -a Google\ Chrome --args --disable-gpu
 
-2. Or For the browsers you can disable GPU Rasterisation inside chrome://flags as a workaround or just use Safari.
+2. Or For the browsers you can disable GPU Rasterisation inside chrome://flags as a workaround or just use Safari instead.
 
 
 ### What is working?
