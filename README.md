@@ -66,9 +66,21 @@ For a workaround just follow either of these 2 steps
 
 
 ### What is working?
-- 
+- Full Gpu Acceleration
+- WIFI/BT
+- iMessage
+- Appstore
+- Screen Brightness
+- Keyboard Light 
+
 ### What is not working?
+- The built - in ov9734_azurewave_camera is detected but but no show no display on photobooth even on Google Meet
 - 
+
+
+### Bug(s)
+- To make brightness works on my machine I have to boot winddows first then reboot to mac
+- After laptop go to sleep brightness isn't working 
 
 
 
@@ -76,10 +88,65 @@ For a workaround just follow either of these 2 steps
 
 ## Credits / Thanks 
 
+- [Apple](https://www.apple.com) for macOS
 - [herrnst](https://github.com/herrnst/HuaweiMatebookD14AMD-OpenCore) For the guide and working EFI.
 - [ChefKissInc](https://github.com/ChefKissInc/NootedRed) for the AMD IGPU support functionality
+- [RadeonSensor](https://github.com/ChefKissInc/RadeonSensor) (GPU sensors)
+- [OpenIntelWireless](https://github.com/OpenIntelWireless) for [AirpotItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
 
 
+## What's in the box?
+
+├── EFI
+│   ├── BOOT
+│   │   └── BOOTx64.efi
+│   └── OC
+│       ├── ACPI
+│       │   ├── SSDT-ALS0.aml
+│       │   ├── SSDT-EC-USBX.aml
+│       │   ├── SSDT-EC.aml
+│       │   ├── SSDT-GPRW.aml
+│       │   ├── SSDT-HPET.aml
+│       │   └── SSDT-PLUG.aml
+│       │   ├── SSDT-PNLF.aml
+│       │   ├── SSDT-RMNE.aml
+│       │   ├── SSDT-SBUS-MCHC.aml
+│       │   ├── SSDT-SLPB.aml
+│       │   ├── SSDT-USBX.aml
+│       │   └── SSDT-XOSI.aml
+│       ├── Bootstrap
+│       │   └── Bootstrap.efi
+│       ├── config.plist
+│       ├── Drivers
+│       │   ├── HfsPlus.efi
+│       │   ├── OpenCanopy.efi
+│       │   └── OpenRuntime.efi
+│       ├── Kexts
+│       │   ├── AMDRyzenCPUPowerManagement.kext
+│       │   ├── AmdTscSync.kext
+│       │   ├── AppleALC.kext
+│       │   ├── AppleMCEReporterDisabler.kext
+│       │   ├── ECEnabler.kext
+│       │   ├── itlwm.kext
+│       │   ├── Lilu.kext
+│       │   ├── NootedRed.kext
+│       │   ├── NVMeFix.kext
+│       │   ├── RadeonSensor.kext
+│       │   ├── SMCAMDProcessor.kext
+│       │   ├── SMCBatteryManager.kext
+│       │   ├── SMCRadeonGPU.kext
+│       │   ├── USBToolBox.kext
+│       │   ├── UTBDefault.kext
+│       │   ├── VirtualSMC.kext
+│       │   ├── VoodooPS2Controller.kext
+│       │   └── HeliPort.dmg
+│       ├── OpenCore.efi
+│       └── Resources
+│           ├── Audio
+│           ├── Font
+│           ├── Image
+│           └── Label
 
 
 
