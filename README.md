@@ -80,7 +80,7 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 
 ### Bug(s)
-- To make brightness works on my machine I have to boot winddows first then reboot to mac
+- To make brightness works on my machine I have to boot winddows first then reboot to mac (Which is a known issue [here](https://github.com/ChefKissInc/NootedRed/issues/236)
 - After laptop go to sleep brightness isn't working 
 
 
