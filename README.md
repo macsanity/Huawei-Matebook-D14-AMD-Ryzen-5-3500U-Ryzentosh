@@ -46,7 +46,7 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 2. Copy all the files that start with SSDT and end in `*.aml` inside of Drive `/EFI/OC/ACPI`
 3. Finally, merge `patches_OC.plist` by using the PatchMerge script included with SSDTTime. Run it the same way as SSDTTime
 
-Or you can Follow the guide [here](https://chefkissinc.github.io/guide)
+Or you can Follow the guide [AMD HACKINTOSH GUIDE](https://chefkissinc.github.io/guide)
 
 
 
