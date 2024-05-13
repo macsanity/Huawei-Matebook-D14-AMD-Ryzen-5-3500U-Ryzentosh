@@ -85,7 +85,8 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 
 
-
+## Bonus
+- If you're having hard time with your display being too small, just go [here](https://github.com/xzhih/one-key-hidpi/blob/master/README.md) simulate macOS HiDPI on a non-retina display (I'm telling you the display is much readable :) )
 
 ## Credits / Thanks 
 
