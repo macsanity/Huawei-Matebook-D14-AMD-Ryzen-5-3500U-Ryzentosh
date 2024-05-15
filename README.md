@@ -75,7 +75,7 @@ For a workaround on Google Chrome just follow either of these 2 steps
 - Keyboard Light 
 
 ### What is not working?
-- The built - in ov9734_azurewave_camera is detected but but no show no display on photobooth even on Google Meet
+- The built - in ov9734_azurewave_camera is detected but but no show no display on photobooth even on Google Meet, no known fix for this atm.
 - 
 
 
@@ -85,8 +85,9 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 
 
-## Bonus
+## PS
 - If you're having hard time with your display being too small, just go [here](https://github.com/xzhih/one-key-hidpi/blob/master/README.md) simulate macOS HiDPI on a non-retina display (I'm telling you the display is much readable :) )
+- On your AmdTscSync.kext make sure IOCPUNumber to "0" without the " if you're running on Ventura or higher
 
 ## Credits / Thanks 
 
