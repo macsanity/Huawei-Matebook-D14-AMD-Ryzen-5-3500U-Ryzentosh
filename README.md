@@ -23,7 +23,7 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 | AUDIO/MIC     | Realtek ALC256 (AppleALC layout ID 21)  |        
 | CAMERA        | ov9734_azurewave_camera  |        
 | SMBIOS USED   | MacBookPro16,3  |      
-| OPENCORE VERSION   | 0.9.9  |   
+| OPENCORE VERSION   | 1.0.0  |   
 
 
 ## Gathering Files
