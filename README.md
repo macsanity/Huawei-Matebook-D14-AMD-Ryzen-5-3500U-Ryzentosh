@@ -92,7 +92,7 @@ For a workaround on Google Chrome just follow either of these 2 steps
 ## Credits / Thanks 
 
 - [Apple](https://www.apple.com) for macOS
-- [herrnst](https://github.com/herrnst/HuaweiMatebookD14AMD-OpenCore) For the guide and working EFI.
+- [herrnst](https://github.com/herrnst/HuaweiMatebookD14AMD-OpenCore) For the guide making this EFI
 - [ChefKissInc](https://github.com/ChefKissInc/NootedRed) for the AMD IGPU support functionality
 - [For the RadeonSensor](https://github.com/ChefKissInc/RadeonSensor) (GPU sensors)
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) for [AirpotItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
