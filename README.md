@@ -88,7 +88,9 @@ For a workaround on Google Chrome just follow either of these 2 steps
 ## PS
 - If you're having hard time with your display being too small, just go [here](https://github.com/xzhih/one-key-hidpi/blob/master/README.md) simulate macOS HiDPI on a non-retina display (I'm telling you the display is much readable :) )
 - On your AmdTscSync.kext make sure IOCPUNumber to "0" without the " if you're running on Ventura or higher
+- When Installing make sure to disable your NR kext first, just enable it when your mac boots into your desktop.
 
+  
 ## Credits / Thanks 
 
 - [Apple](https://www.apple.com) for macOS
