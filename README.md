@@ -4,9 +4,11 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
 
 
 
+![Screenshot 2024-05-18 at 21 10 26](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/b3f89025-460c-4921-99a2-46cf505ec27d)
 
 
-![Screenshot 2024-05-08 at 21 49 18](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/5544305b-d916-4666-b3c6-807e23f54631)
+
+
 
 
 
@@ -80,7 +82,7 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 
 ### Bug(s)
-- To make brightness works on my machine I have to boot winddows first then reboot to mac (Which is a known issue [here](https://github.com/ChefKissInc/NootedRed/issues/236)
+- To make brightness works on my machine I have to boot winddows first then reboot to mac (Which is a known issue [here](https://github.com/ChefKissInc/NootedRed/issues/236) on Raven lineup.
 - After laptop go to sleep brightness isn't working 
 
 
