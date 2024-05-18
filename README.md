@@ -1,9 +1,9 @@
 # **Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh**
-OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running macOS 
 
 
 
 
+# Ryzentosh SUCCESS!**
 ![Screenshot 2024-05-18 at 21 10 26](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/b3f89025-460c-4921-99a2-46cf505ec27d)
 
 
@@ -43,7 +43,7 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
    - `PluginType`  
      **For AMD Laptop**
    - `FakeEC Laptop`
-   - `PLNF`
+   - `PLNF` (on this file I suggest the PNLF on Chefkiss website, just don't use the one SSDTIME produced.)
    - `XOSI` (Choose default `A` key)
 2. Copy all the files that start with SSDT and end in `*.aml` inside of Drive `/EFI/OC/ACPI`
 3. Finally, merge `patches_OC.plist` by using the PatchMerge script included with SSDTTime. Run it the same way as SSDTTime
@@ -78,7 +78,7 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 ### What is not working?
 - The built - in ov9734_azurewave_camera is detected but but no show no display on photobooth even on Google Meet, no known fix for this atm.
-- 
+- FP of course, it will not be fixed!
 
 
 ### Bug(s)
