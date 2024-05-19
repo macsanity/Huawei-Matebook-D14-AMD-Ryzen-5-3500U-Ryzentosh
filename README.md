@@ -1,12 +1,14 @@
 # **Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh**
-OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running macOS 
 
 
 
 
+# Ryzentosh SUCCESS!**
+![Screenshot 2024-05-18 at 21 10 26](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/b3f89025-460c-4921-99a2-46cf505ec27d)
 
 
-![Screenshot 2024-05-08 at 21 49 18](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/5544305b-d916-4666-b3c6-807e23f54631)
+
+
 
 
 
@@ -41,7 +43,7 @@ OpenCore configuration for Huawei Matebook D14 AMD (2020) -NBLK-WAX9X running ma
    - `PluginType`  
      **For AMD Laptop**
    - `FakeEC Laptop`
-   - `PLNF`
+   - `PLNF` (on this file I suggest the PNLF on Chefkiss website, just don't use the one SSDTIME produced.)
    - `XOSI` (Choose default `A` key)
 2. Copy all the files that start with SSDT and end in `*.aml` inside of Drive `/EFI/OC/ACPI`
 3. Finally, merge `patches_OC.plist` by using the PatchMerge script included with SSDTTime. Run it the same way as SSDTTime
@@ -76,18 +78,18 @@ For a workaround on Google Chrome just follow either of these 2 steps
 
 ### What is not working?
 - The built - in ov9734_azurewave_camera is detected but but no show no display on photobooth even on Google Meet, no known fix for this atm.
-- 
+- FP of course, it will not be fixed!
 
 
 ### Bug(s)
-- To make brightness works on my machine I have to boot winddows first then reboot to mac (Which is a known issue [here](https://github.com/ChefKissInc/NootedRed/issues/236)
+- To make brightness works on my machine I have to boot winddows first then reboot to mac (Which is a known issue [here](https://github.com/ChefKissInc/NootedRed/issues/236) on Raven lineup.
 - After laptop go to sleep brightness isn't working 
 
 
 
 ## PS
 - If you're having hard time with your display being too small, just go [here](https://github.com/xzhih/one-key-hidpi/blob/master/README.md) simulate macOS HiDPI on a non-retina display (I'm telling you the display is much readable :) )
-- On your AmdTscSync.kext make sure IOCPUNumber to "0" without the " if you're running on Ventura or higher
+- On your AmdTscSync.kext make sure IOCPUNumber to "0" without the " if you're running on Ventura or later
 - When Installing make sure to disable your NR kext first, just enable it when your mac boots into your desktop.
 
   
