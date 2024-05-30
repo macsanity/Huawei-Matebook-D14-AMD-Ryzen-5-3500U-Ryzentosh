@@ -7,9 +7,10 @@
 
 
 
+![gh](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/bf918049-fb85-44cd-9f5b-4e7fc86857da)
 
 
-![Uploading Screenshot 2024-05-30 at 12.40.22.png…]()
+
 
 
 
