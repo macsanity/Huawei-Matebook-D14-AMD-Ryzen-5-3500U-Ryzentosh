@@ -4,7 +4,13 @@
 
 
 # Ryzentosh SUCCESS!**
-![Screenshot 2024-05-18 at 21 10 26](https://github.com/macsanity/Huawei-Matebook-D14-AMD-Ryzen-5-3500U-Ryzentosh/assets/116618453/b3f89025-460c-4921-99a2-46cf505ec27d)
+
+
+
+
+
+![Uploading Screenshot 2024-05-30 at 12.40.22.png…]()
+
 
 
 
