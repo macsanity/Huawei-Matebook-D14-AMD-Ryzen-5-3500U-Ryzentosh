@@ -31,7 +31,7 @@
 | WIFI/BT CARD  | Intel® Wi-Fi 6 AX200      |        
 | AUDIO/MIC     | Realtek ALC256 (AppleALC layout ID 21)  |        
 | CAMERA        | ov9734_azurewave_camera  |        
-| SMBIOS USED   | MacBookPro16,3  |      
+| SMBIOS USED   | MacBookAir9,1  |      
 | OPENCORE VERSION   | 1.0.0  |   
 
 
