@@ -64,7 +64,7 @@ Or you can Follow the guide [AMD HACKINTOSH GUIDE](https://chefkissinc.github.io
 
 
 ## **Note**:
-macOS Ventura (13.6) runs quite well on my laptop, but due to some [NootedRed](https://github.com/ChefKissInc/NootedRed) known issue but unkown cause, Chromium - based browser causes graphical artefacts and other problems
+macOS Ventura (13.6.7) runs well on my laptop, but due to some [NootedRed](https://github.com/ChefKissInc/NootedRed) known issue but unkown cause, Chromium - based browser causes graphical artefacts and other problems
 This is a known issue in [NR](https://github.com/ChefKissInc/NootedRed/issues/158) 
 For a workaround on Google Chrome just follow either of these 2 steps
 
